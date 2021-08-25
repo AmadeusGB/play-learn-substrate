@@ -1,0 +1,15 @@
+[profile.release]
+panic = 'unwind'
+
+[workspace]
+members = [
+    'node',
+    'pallets/template',
+    'pallets/poe',
+    'pallets/coinflip',
+    # 'pallets/data-type',
+    # 'pallets/genesis-config',
+    # 'pallets/weight',
+    'pallets/benchmark-demo',
+    'runtime',
+]
